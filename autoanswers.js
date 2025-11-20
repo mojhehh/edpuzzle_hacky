@@ -1,7 +1,7 @@
 //Copyright (C) 2023 ading2210
 //see README.md for more information
-import { content_loaded, construct_headers, get_attempt, questions, assignment_mode } from "./main.js";
-import { video_skipper } from "./skipper.js";
+import { content_loaded, construct_headers, get_attempt, questions, assignment_mode } from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/main.js";
+import { video_skipper } from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/skipper.js";
 
 export var answerer_loaded = false;
 
