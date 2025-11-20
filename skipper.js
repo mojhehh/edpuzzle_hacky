@@ -1,7 +1,7 @@
 //Copyright (C) 2023 ading2210
 //see README.md for more information
 
-import { content_loaded, construct_headers, get_attempt, assignment_mode } from "./main.js";
+import { content_loaded, construct_headers, get_attempt, assignment_mode } from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/main.js";
 
 export var skipper_loaded = false;
 
