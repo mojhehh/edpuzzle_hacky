@@ -1,9 +1,9 @@
 //Copyright (C) 2025 ading2210
 //see README.md for more information
-import {video_skipper, skipper_loaded} from "./skipper.js";
-import {auto_answers, answerer_loaded} from "./autoanswers.js";
-import {video_options} from "./videooptions.js";
-import { open_ended } from "./openended.js";
+import {video_skipper, skipper_loaded} from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/skipper.js";
+import {auto_answers, answerer_loaded} from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/autoanswers.js";
+import {video_options} from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/videooptions.js";
+import { open_ended } from "https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main/openended.js";
 
 window.real_location = JSON.parse(JSON.stringify(opener.real_location));
 
@@ -43,6 +43,8 @@ export var assignment = null;
 export var content_loaded = false;
 export var assignment_mode = null;
 var attachment_id = null;
+
+
 
 function fetch_wrapper(url, options={}) {
   if (edpuzzle_data && edpuzzle_data.token && (new URL(url).hostname) == "edpuzzle.com") {
