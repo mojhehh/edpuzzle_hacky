@@ -1,3 +1,3 @@
 # edpuzzle-hacky
-source from https://edpuzzle.hs.vc/
-I am just posting these becuase my school blocks  edpuzzle.hs.vc
+source from 
+https://github.com/ading2210/edpuzzle-answers
