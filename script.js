@@ -3,7 +3,7 @@
 
 //this script mainly just serves to load the rest of the program
 
-var mirrors = ["https://edpuzzle.hs.vc"];
+var mirrors = ["https://cdn.jsdelivr.net/gh/mojhehh/edpuzzle_hacky@main"];
 
 async function try_mirror(mirror) {
   let r = await fetch(mirror + "/open.js");
